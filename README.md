@@ -1,1 +1,3 @@
-# Tranlate
+# Translate
+
+## google translate for project
