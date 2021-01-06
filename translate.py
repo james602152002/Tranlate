@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from googletrans import Translator
-trans = Translator()
+trans = Translator(service_urls=['translate.google.cn'])
 name = input("Plz input name:")
 lanArr = ["en", "zh-tw", "ja", "ko"]
 
