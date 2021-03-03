@@ -2,7 +2,7 @@
 from googletrans import Translator
 trans = Translator(service_urls=['translate.google.cn'])
 name = input("Plz input name:")
-lanArr = ["en", "zh-tw", "ja", "ko"]
+lanArr = ["en", "zh-tw", "ja", "ko", "ru"]
 
 for lan in lanArr:
  lanTrans = trans.translate(name, src = "zh-cn", dest = lan)
